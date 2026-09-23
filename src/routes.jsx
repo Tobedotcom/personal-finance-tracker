@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 
 import DashboardLayout from "./layouts/DashboardLayout";
 
@@ -13,11 +13,17 @@ import Posts from "./pages/Posts";
 import PostDetails from "./pages/PostDetails";
 
 import ProtectedRoute from "./components/authentication/ProtectedRoute";
+import { DEV_BYPASS_AUTH } from "./utils/auth";
 
 function AppRoutes() {
   return (
     <Routes>
-      <Route path="/" element={<Login />} />
+      <Route
+        path="/"
+        element={
+          DEV_BYPASS_AUTH ? <Navigate to="/dashboard" replace /> : <Login />
+        }
+      />
 
       <Route path="/signup" element={<Signup />} />
 
