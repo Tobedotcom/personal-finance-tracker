@@ -1,0 +1,71 @@
+.pot-card {
+  padding: var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+/* Header row: color dot + name, and the ••• menu */
+.pot-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pot-title {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.pot-title h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--clr-text);
+  margin: 0;
+}
+
+/* Amount section */
+.pot-amount {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.pot-amount-labels {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: var(--clr-text-light);
+}
+
+.pot-target {
+  color: var(--clr-text-light);
+}
+
+.pot-amount strong {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--clr-text);
+}
+
+/* Action buttons row */
+.pot-actions {
+  display: flex;
+  gap: var(--space-sm);
+}
+
+.pot-actions .btn {
+  flex: 1;
+}
+
+/* NOTE: progress bar (.progress-bar/.progress-fill), the color dot (.color-dot),
+   and the "•••" menu (.icon-button) all now live in their own shared ui/ files —
+   this file only contains what's unique to a pot card's layout. */
+
+@media (max-width: 700px) {
+  .pot-actions {
+    flex-wrap: wrap;
+  }
+}

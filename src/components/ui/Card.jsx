@@ -1,0 +1,11 @@
+import "../../css/ui/card.css";
+
+function Card({ children, className = "" }) {
+  return (
+    <div className={`card ${className}`.trim()}>
+      {children}
+    </div>
+  );
+}
+
+export default Card;

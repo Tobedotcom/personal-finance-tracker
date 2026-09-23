@@ -1,0 +1,113 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "avatar": "/avatars/emma-richardson.jpg",
+      "name": "Jamie Lannister",
+      "category": "General",
+      "date": "2026-08-19",
+      "amount": 90000,
+      "type": "income"
+    },
+    {
+      "id": 2,
+      "avatar": "/avatars/savory-bites.jpg",
+      "name": "Pie Express",
+      "category": "meal",
+      "date": "2026-08-19",
+      "amount": 2500,
+      "type": "expense"
+    },
+    {
+      "id": 3,
+      "avatar": "/avatars/daniel-carter.jpg",
+      "name": "Chisom Lucky Okoro",
+      "category": "General",
+      "date": "2026-08-18",
+      "amount": 35000,
+      "type": "income"
+    },
+    {
+      "id": 4,
+      "avatar": "/avatars/spark-electric.jpg",
+      "name": "AEDC",
+      "category": "Bills",
+      "date": "2026-08-17",
+      "amount": 12000,
+      "type": "expense"
+    },
+    {
+      "id": 5,
+      "avatar": "/avatars/spotify.jpg",
+      "name": "Spotify",
+      "category": "Entertainment",
+      "date": "2026-08-16",
+      "amount": 650,
+      "type": "expense"
+    }
+  ],
+
+ "budgets": [
+  {
+    "id": 1,
+    "category": "OnlyFans",
+    "maximum": 75000,
+    "spent": 36000,
+    "theme": "#277C78",
+    "label": "OnlyFans",
+    "value": 36000,
+    "color": "#277C78"
+  },
+  {
+    "id": 2,
+    "category": "Bills",
+    "maximum": 100000,
+    "spent": 210000,
+    "theme": "#626070",
+    "label": "Bills",
+    "value": 210000,
+    "color": "#626070"
+  },
+  {
+    "id": 3,
+    "category": "gbese",
+    "maximum": 110000,
+    "spent": 75000,
+    "theme": "#82C9D7",
+    "label": "gbese",
+    "value": 75000,
+    "color": "#82C9D7"
+  }
+], 
+
+  "pots": [
+    {
+      "id": 1,
+      "name": "Savings",
+      "target": 500000,
+      "total": 3200,
+      "theme": "#277C78"
+    },
+    {
+      "id": 2,
+      "name": "new Phone",
+      "target": 250000,
+      "total": 175000,
+      "theme": "#82C9D7"
+    },
+    {
+      "id": 3,
+      "name": "New Laptop",
+      "target": 750000,
+      "total": 455000,
+      "theme": "#F2CDAC"
+    },
+    {
+      "id": 4,
+      "name": "Backy money",
+      "target": 35000,
+      "total": 23000,
+      "theme": "#F2CDAC"
+    }
+  ]
+}

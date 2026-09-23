@@ -1,0 +1,156 @@
+.posts-page {
+  padding: 2rem;
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+.posts-header {
+  margin-bottom: 2rem;
+}
+
+.posts-header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.posts-header p {
+  margin-top: 0.5rem;
+  color: #777;
+}
+
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+.post-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 1rem;
+  text-decoration: none;
+  color: inherit;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.post-card:hover {
+  transform: translateY(-0.2rem);
+  box-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.08);
+}
+
+.post-number {
+  font-size: 0.8rem;
+  color: #777;
+  margin-bottom: 0.75rem;
+}
+
+.post-card h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.15rem;
+  text-transform: capitalize;
+}
+
+.post-card p {
+  margin: 0;
+  line-height: 1.6;
+  color: #666;
+}
+
+.post-read-more {
+  margin-top: 1.25rem;
+  font-weight: 600;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.pagination button {
+  padding: 0.7rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  background: #fff;
+  cursor: pointer;
+}
+
+.pagination button:hover:not(:disabled) {
+  background: #f5f5f5;
+}
+
+.pagination button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.post-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: grid;
+  place-items: center;
+  z-index: 1000;
+  padding: 1rem;
+}
+
+.post-modal {
+  width: min(100%, 500px);
+  background: white;
+  border-radius: 1rem;
+  padding: 2rem;
+  position: relative;
+}
+
+.post-modal button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  border: none;
+  background: transparent;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.post-modal h1 {
+  margin-top: 1rem;
+  text-transform: capitalize;
+}
+
+.post-modal p {
+  line-height: 1.6;
+}
+
+/* ============ Responsive ============ */
+
+@media (max-width: 900px) {
+  .posts-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .posts-page {
+    padding: 1.25rem;
+  }
+
+  .posts-header h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .post-modal {
+    padding: 1.5rem;
+  }
+
+  .pagination {
+    gap: 0.75rem;
+  }
+}

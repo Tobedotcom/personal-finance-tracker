@@ -1,0 +1,140 @@
+/* ===== Auth pages (Login / Signup) ===== */
+
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--clr-bg);
+}
+
+.auth-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 2rem;
+}
+
+.auth-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  color: var(--clr-text);
+}
+
+.auth-topbar a {
+  color: var(--clr-primary);
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.auth-topbar-hint {
+  font-size: 0.85rem;
+  color: var(--clr-text-light);
+}
+
+.auth-topbar-hint a {
+  color: var(--clr-primary);
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 0.25rem;
+}
+
+.auth-main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.auth-header {
+  text-align: center;
+  margin-bottom: 1.75rem;
+}
+
+.auth-header h1 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--clr-text);
+  margin: 0 0 0.4rem;
+}
+
+.auth-header p {
+  font-size: 0.85rem;
+  color: var(--clr-text-light);
+  margin: 0;
+}
+
+.auth-logo {
+  display: block;
+  width: 16px;
+  height: 21px;
+  margin: 0 auto 1rem;
+}
+
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.82rem;
+  color: var(--clr-text-light);
+  margin-bottom: 1.25rem;
+  cursor: pointer;
+}
+
+.checkbox-row input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  accent-color: var(--clr-primary);
+  cursor: pointer;
+}
+
+.form-error {
+  color: var(--clr-danger);
+  font-size: 0.8rem;
+  margin: -0.4rem 0 1rem;
+}
+
+.auth-switch {
+  text-align: center;
+  font-size: 0.82rem;
+  color: var(--clr-text-light);
+  margin-top: 1.25rem;
+}
+
+.auth-switch a {
+  color: var(--clr-primary);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.password-strength {
+  font-size: 0.75rem;
+  margin: 0.4rem 0 0;
+}
+
+.strength-weak {
+  color: var(--clr-danger);
+}
+
+.strength-fair {
+  color: var(--clr-warning);
+}
+
+.strength-strong {
+  color: var(--clr-primary);
+}
+
+/* ============ Responsive ============ */
+
+@media (max-width: 480px) {
+  .auth-main {
+    padding: 1.25rem;
+  }
+
+  .auth-topbar {
+    padding: 1rem 1.25rem;
+  }
+}

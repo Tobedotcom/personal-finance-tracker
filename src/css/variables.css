@@ -1,0 +1,51 @@
+:root {
+  /* Brand */
+
+  --clr-primary: #277c78;
+  --clr-primary-hover: #1f615d;
+
+  /* Status */
+
+  --clr-success: #00b894;
+  --clr-danger: #e74c3c;
+  --clr-warning: #f39c12;
+
+  /* Backgrounds */
+
+  --clr-bg: #f8f4f0;
+  --clr-surface: #ffffff;
+  --clr-sidebar: #201f24;
+
+  /* Text */
+
+  --clr-text: #201f24;
+  --clr-text-light: #696868;
+  --clr-text-white: #ffffff;
+
+  /* Borders */
+
+  --clr-border: #e6e8ef;
+
+  /* Radius */
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+
+  /* Shadows */
+
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+  /* Spacing */
+
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+
+  /* Sidebar */
+
+  --sidebar-width: 18.75rem; /* 300px */
+}

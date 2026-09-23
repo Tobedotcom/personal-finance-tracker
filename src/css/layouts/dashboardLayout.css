@@ -1,0 +1,17 @@
+.dashboard-layout {
+  min-height: 100vh;
+  background: #f8f4f0;
+}
+
+.dashboard-content {
+  margin-left: 256px;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+
+@media (max-width: 900px) {
+  .dashboard-content {
+    margin-left: 0;
+    padding-top: 56px;
+  }
+}

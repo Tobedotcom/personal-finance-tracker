@@ -1,0 +1,6 @@
+@import "./css/variables.css";
+@import "./css/globals.css";
+
+@import "./css/ui/button.css";
+@import "./css/ui/input.css";
+@import "./css/ui/card.css";

@@ -1,0 +1,418 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Tobechukwu Eze",
+      "email": "ezetobe220@gmail.com",
+      "password": "Tee_boi2006"
+    },
+    {
+      "name": "Tobechukwu Eze",
+      "email": "zaylevel@ten.com",
+      "password": "Tee_boi2006",
+      "id": "TxHR1XDHIcY"
+    },
+    {
+      "name": "Ken carson",
+      "email": "kenCarson@gmail.com",
+      "password": "Tee_boi2006",
+      "id": "pAthtrO5uNo"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "1",
+      "name": "Jamie Lannister",
+      "category": "General",
+      "date": "2026-08-19",
+      "amount": 90000,
+      "type": "income"
+    },
+    {
+      "id": "2",
+      "name": "Pie Express",
+      "category": "Dining",
+      "date": "2026-08-19",
+      "amount": 2500,
+      "type": "expense"
+    },
+    {
+      "id": "3",
+      "name": "Chisom Lucky Okoro",
+      "category": "General",
+      "date": "2026-08-18",
+      "amount": 35000,
+      "type": "income"
+    },
+    {
+      "id": "4",
+      "name": "AEDC",
+      "category": "Bills",
+      "date": "2026-08-17",
+      "amount": 12000,
+      "type": "expense"
+    },
+    {
+      "id": "5",
+      "name": "Spotify",
+      "category": "Entertainment",
+      "date": "2026-08-16",
+      "amount": 650,
+      "type": "expense"
+    },
+    {
+      "id": "6",
+      "name": "Heritage Bank Salary",
+      "category": "Salary",
+      "date": "2026-08-15",
+      "amount": 285000,
+      "type": "income"
+    },
+    {
+      "id": "7",
+      "name": "Shoprite",
+      "category": "Groceries",
+      "date": "2026-08-14",
+      "amount": 18500,
+      "type": "expense"
+    },
+    {
+      "id": "8",
+      "name": "Bolt",
+      "category": "Transportation",
+      "date": "2026-08-13",
+      "amount": 4200,
+      "type": "expense"
+    },
+    {
+      "id": "9",
+      "name": "MTN Nigeria",
+      "category": "Utilities",
+      "date": "2026-08-12",
+      "amount": 5500,
+      "type": "expense"
+    },
+    {
+      "id": "10",
+      "name": "Daniel Okafor",
+      "category": "Freelance",
+      "date": "2026-08-11",
+      "amount": 75000,
+      "type": "income"
+    },
+    {
+      "id": "11",
+      "name": "Netflix",
+      "category": "Entertainment",
+      "date": "2026-08-10",
+      "amount": 7500,
+      "type": "expense"
+    },
+    {
+      "id": "12",
+      "name": "Chicken Republic",
+      "category": "Dining",
+      "date": "2026-08-09",
+      "amount": 6800,
+      "type": "expense"
+    },
+    {
+      "id": "13",
+      "name": "Jumia",
+      "category": "Shopping",
+      "date": "2026-08-08",
+      "amount": 32000,
+      "type": "expense"
+    },
+    {
+      "id": "14",
+      "name": "Lagos State Transport",
+      "category": "Transportation",
+      "date": "2026-08-07",
+      "amount": 3000,
+      "type": "expense"
+    },
+    {
+      "id": "15",
+      "name": "Tobi Adeyemi",
+      "category": "General",
+      "date": "2026-08-06",
+      "amount": 25000,
+      "type": "income"
+    },
+    {
+      "id": "16",
+      "name": "Airtel Nigeria",
+      "category": "Utilities",
+      "date": "2026-08-05",
+      "amount": 4000,
+      "type": "expense"
+    },
+    {
+      "id": "17",
+      "name": "Genesis Deluxe Cinemas",
+      "category": "Entertainment",
+      "date": "2026-08-04",
+      "amount": 9000,
+      "type": "expense"
+    },
+    {
+      "id": "18",
+      "name": "SPAR",
+      "category": "Groceries",
+      "date": "2026-08-03",
+      "amount": 27500,
+      "type": "expense"
+    },
+    {
+      "id": "19",
+      "name": "Upwork Client",
+      "category": "Freelance",
+      "date": "2026-08-02",
+      "amount": 120000,
+      "type": "income"
+    },
+    {
+      "id": "20",
+      "name": "Chicken Republic",
+      "category": "Dining",
+      "date": "2026-08-01",
+      "amount": 4500,
+      "type": "expense"
+    },
+    {
+      "id": "21",
+      "name": "Supervisor Raphael",
+      "category": "General",
+      "date": "2026-07-30",
+      "amount": 18000,
+      "type": "income"
+    },
+    {
+      "id": "22",
+      "name": "HealthPlus",
+      "category": "Health",
+      "date": "2026-07-28",
+      "amount": 8500,
+      "type": "expense"
+    },
+    {
+      "id": "23",
+      "name": "Bolt",
+      "category": "Transportation",
+      "date": "2026-07-27",
+      "amount": 5600,
+      "type": "expense"
+    },
+    {
+      "id": "24",
+      "name": "Shoprite",
+      "category": "Groceries",
+      "date": "2026-07-25",
+      "amount": 14200,
+      "type": "expense"
+    },
+    {
+      "id": "25",
+      "name": "GTBank",
+      "category": "Bills",
+      "date": "2026-07-23",
+      "amount": 25000,
+      "type": "expense"
+    },
+    {
+      "id": "26",
+      "name": "Sarah Eze",
+      "category": "Freelance",
+      "date": "2026-07-21",
+      "amount": 95000,
+      "type": "income"
+    },
+    {
+      "id": "27",
+      "name": "Only Fans",
+      "category": "Entertainment",
+      "date": "2026-07-19",
+      "amount": 3800,
+      "type": "expense"
+    },
+    {
+      "id": "28",
+      "name": "Amazon",
+      "category": "Shopping",
+      "date": "2026-07-17",
+      "amount": 45000,
+      "type": "expense"
+    },
+    {
+      "id": "29",
+      "name": "DSTV",
+      "category": "Bills",
+      "date": "2026-07-15",
+      "amount": 18500,
+      "type": "expense"
+    },
+    {
+      "id": "30",
+      "name": "Zenith Bank Salary",
+      "category": "Salary",
+      "date": "2026-07-14",
+      "amount": 310000,
+      "type": "income"
+    },
+    {
+      "id": "31",
+      "name": "Eko Electricity",
+      "category": "Utilities",
+      "date": "2026-07-12",
+      "amount": 15000,
+      "type": "expense"
+    },
+    {
+      "id": "32",
+      "name": "Reddington Hospital",
+      "category": "Health",
+      "date": "2026-07-10",
+      "amount": 35000,
+      "type": "expense"
+    },
+    {
+      "id": "33",
+      "name": "Spotify",
+      "category": "Entertainment",
+      "date": "2026-07-09",
+      "amount": 650,
+      "type": "expense"
+    },
+    {
+      "id": "34",
+      "name": "Yaba Market",
+      "category": "Shopping",
+      "date": "2026-07-07",
+      "amount": 12500,
+      "type": "expense"
+    },
+    {
+      "id": "35",
+      "name": "Bolt",
+      "category": "Transportation",
+      "date": "2026-07-05",
+      "amount": 2800,
+      "type": "expense"
+    },
+    {
+      "id": "36",
+      "name": "Femi Balogun",
+      "category": "General",
+      "date": "2026-07-04",
+      "amount": 50000,
+      "type": "income"
+    },
+    {
+      "id": "37",
+      "name": "Market Square",
+      "category": "Groceries",
+      "date": "2026-07-03",
+      "amount": 22000,
+      "type": "expense"
+    },
+    {
+      "id": "38",
+      "name": "Uber",
+      "category": "Transportation",
+      "date": "2026-07-02",
+      "amount": 7200,
+      "type": "expense"
+    },
+    {
+      "id": "39",
+      "name": "Freelance Client Payment",
+      "category": "Freelance",
+      "date": "2026-07-01",
+      "amount": 150000,
+      "type": "income"
+    },
+    {
+      "id": "40",
+      "name": "Pie Express",
+      "category": "Dining",
+      "date": "2026-07-01",
+      "amount": 3200,
+      "type": "expense"
+    }
+  ],
+  "budgets": [
+    {
+      "id": "1",
+      "category": "Entertainment",
+      "maximum": 75000,
+      "theme": "#277C78",
+      "label": "OnlyFans",
+      "value": 36000,
+      "color": "#277C78"
+    },
+    {
+      "id": "2",
+      "category": "Bills",
+      "maximum": 100000,
+      "theme": "#626070",
+      "label": "Bills",
+      "value": 210000,
+      "color": "#626070"
+    },
+    {
+      "id": "3",
+      "category": "Dining",
+      "maximum": 100000,
+      "theme": "#82C9D7",
+      "label": "gbese",
+      "value": 75000,
+      "color": "#82C9D7"
+    }
+  ],
+  "pots": [
+    {
+      "id": "1",
+      "name": "Savings",
+      "target": 500000,
+      "total": 156201,
+      "theme": "#277C78"
+    },
+    {
+      "id": "2",
+      "name": "new Phone",
+      "target": 250000,
+      "total": 200000,
+      "theme": "#82C9D7"
+    },
+    {
+      "id": "4",
+      "name": "Backy",
+      "target": 35000,
+      "total": 23000,
+      "theme": "#F2CDAC"
+    },
+    {
+      "name": "smoke ",
+      "target": 200000,
+      "total": 20000,
+      "theme": "#277C78",
+      "id": "SM2ARkQXUKE"
+    },
+    {
+      "name": "bootycall",
+      "target": 5000,
+      "total": 3000,
+      "theme": "#4d277c",
+      "id": "1XH0pTWjkhs"
+    },
+    {
+      "name": "wetwipes",
+      "target": 20000,
+      "total": 0,
+      "theme": "#ae195a",
+      "id": "HNDXPFJTX3s"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

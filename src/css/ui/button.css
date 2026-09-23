@@ -1,0 +1,71 @@
+.btn {
+  padding: 0.75rem 1.25rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.1s ease;
+  border: 1px solid transparent;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+/* Filled primary — e.g. "+ Add New Pot", "Login", "Create Account" */
+.btn-primary {
+  background: var(--clr-primary);
+  color: var(--clr-text-white);
+  border-color: var(--clr-primary);
+}
+
+.btn-primary:hover {
+  background: var(--clr-primary-hover);
+  border-color: var(--clr-primary-hover);
+}
+
+/* Outlined secondary — e.g. "Add Money", "Withdraw" */
+.btn-secondary {
+  background: transparent;
+  color: var(--clr-primary);
+  border-color: var(--clr-primary);
+}
+
+.btn-secondary:hover {
+  background: var(--clr-primary);
+  color: var(--clr-text-white);
+}
+
+/* Use on a parent container when buttons should sit full-width, e.g. auth forms */
+.btn-block {
+  width: 100%;
+}
+
+
+.icon-button {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: var(--clr-text-light);
+  font-size: 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0;
+}
+
+.logout-button {
+  width: auto;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+}
+
+@media (max-width: 700px) {
+  /* No hover on touch devices; give icon-only buttons a real hit target */
+  .icon-button {
+    min-width: 2.5rem;
+    min-height: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

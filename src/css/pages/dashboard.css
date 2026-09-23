@@ -1,0 +1,198 @@
+.dashboard-page {
+  padding: var(--space-xl);
+}
+
+.dashboard-page h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--clr-text);
+  margin: 0 0 var(--space-xl);
+}
+
+/* Stat cards row */
+.dashboard-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-lg);
+  margin-bottom: var(--space-xl);
+}
+
+.stat-card {
+  padding: var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.stat-card span {
+  font-size: 0.85rem;
+  color: var(--clr-text-light);
+}
+
+.stat-card strong {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--clr-text);
+}
+
+.stat-income {
+  color: var(--clr-primary) !important;
+}
+
+.stat-expense {
+  color: var(--clr-danger) !important;
+}
+
+/* Shared block header (Pots / Transactions / Budgets) */
+.block-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-lg);
+}
+
+.block-header h2 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--clr-text);
+  margin: 0;
+}
+
+.block-header a {
+  font-size: 0.8rem;
+  color: var(--clr-text-light);
+  text-decoration: none;
+}
+
+.dashboard-block {
+  padding: var(--space-lg);
+}
+
+/* Two-column row: Pots summary + Transactions preview */
+.dashboard-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-lg);
+  margin-bottom: var(--space-lg);
+}
+
+@media (max-width: 900px) {
+  .dashboard-row,
+  .dashboard-stats {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Pots summary block */
+.pots-summary-total {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-bottom: var(--space-lg);
+}
+
+.pots-summary-total span {
+  font-size: 0.8rem;
+  color: var(--clr-text-light);
+}
+
+.pots-summary-total strong {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--clr-text);
+}
+
+.pots-summary-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-md);
+}
+
+.pots-summary-item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-sm);
+  background: var(--clr-bg);
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-sm);
+}
+
+.pots-summary-item .color-dot {
+  margin-top: 0.35rem;
+}
+
+.pots-summary-name {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--clr-text-light);
+}
+
+.pots-summary-item strong {
+  font-size: 0.95rem;
+  color: var(--clr-text);
+}
+
+/* Transactions preview block */
+.transactions-preview-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.transactions-preview-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding-bottom: var(--space-md);
+  border-bottom: 1px solid var(--clr-border);
+}
+
+.transactions-preview-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.transactions-preview-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.transactions-preview-item .transaction-name {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.transactions-preview-item .transaction-category {
+  font-size: 0.75rem;
+}
+
+.transactions-preview-item .income,
+.transactions-preview-item .expense {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+/* Budgets donut layout (reuses .budget-circle etc from budgets.css) */
+.dashboard-budgets-layout {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: var(--space-xl);
+  align-items: center;
+}
+
+@media (max-width: 700px) {
+  .dashboard-budgets-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .dashboard-page {
+    padding: 1.25rem;
+  }
+
+  .pots-summary-grid {
+    grid-template-columns: 1fr;
+  }
+}
